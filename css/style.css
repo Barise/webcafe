@@ -330,7 +330,7 @@ body{
 }
 
 .term-list{
-  background: yellow;
+  background: white;
 }
 .term-list-subject{
   color: orange;
@@ -350,4 +350,36 @@ body{
   float: right;
   width: 145px;
   margin-top: 5px;
+}
+
+/*검색 폼*/
+.search{
+  border: 1px solid #aaa;
+  border-bottom: 0;
+  border-radius: 15px 15px 0 0;
+  padding: 15px 25px 10px;
+  background: #bbb linear-gradient(to bottom, #bbb, #fff);
+}
+
+.serch-form fieldset{
+  border: 0;
+}
+.search-form label, .search-form input, .btn-search{
+  vertical-align: middle;
+}
+.search-form input{
+  border: 1px solid #aaa;
+  width: 190px;
+  height: 24px;
+  padding: 1px 1px 1px 1px;
+  margin: 0 4px;  
+}
+
+.btn-search{
+  background: #333;
+  color: #fff;
+  border: 0;
+  padding: 0 10px;
+  height: 24px;
+  border-radius: 5px;
 }
