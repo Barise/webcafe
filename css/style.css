@@ -313,3 +313,41 @@ body{
 .validation-list a:focus{
   color: rgb(255,0,0);
 }
+
+/* 웹 관련 용어 */
+.term{
+  background: linear-gradient(to bottom, #ccc, #eee);
+  background-color: #ccc;
+  margin-top: 20px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.term-heading{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.term-list{
+  background: yellow;
+}
+.term-list-subject{
+  color: orange;
+  float: right;
+  width: 145px;
+}
+.term-list-thumbnail{
+  float: left;
+  position: relative;
+  top: 5px;
+}
+.term-list-thumbnail img{
+  display: block;
+}
+.term-list-brief{
+  line-height: 1.5;
+  float: right;
+  width: 145px;
+  margin-top: 5px;
+}
